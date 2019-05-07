@@ -1,6 +1,6 @@
 {
   "name": "uni-app-http",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "二次封装uni-app的uni.request 网络请求接口",
   "main": "src/index.js",
   "scripts": {
