@@ -24,3 +24,20 @@ async onLoad() {
   const data = await this.$http.get('/xxx')
 } 
 ```
+
+## 方法说明
+
+### post
+* url
+* data
+* contentType
+
+### get
+* url
+* data
+
+### setHost
+
+* url
+
+### getHost
