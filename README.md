@@ -19,8 +19,8 @@ Vue.prototype.$http = http
 * 运用
 ```vue
 async onLoad() {
-  const end = this.$util.getHost()
-  this.$util.get('/xxx').then((e) => {console.log(e, 22)})
+  const end = this.$http.getHost()
+  this.$http.get('/xxx').then((e) => {console.log(e, 22)})
   const data = await this.$http.get('/xxx')
 } 
 ```
