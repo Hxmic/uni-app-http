@@ -9,9 +9,9 @@
 npm install uni-app-http
 ```
 
-* 在页面中引用
+* 在main.js中引用
 ```app.js or main.js
-import http from 'uni-app-http'
+import http from 'uni-app-http' 
 http.setHost('you host')
 Vue.prototype.$http = http
 ```

@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yehuyin",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prenukes/uni-app-http.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prenukes/uni-app-http/issues"
+  },
+  "homepage": "https://github.com/prenukes/uni-app-http#readme"
 }
