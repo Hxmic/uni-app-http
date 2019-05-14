@@ -9,6 +9,7 @@ export default {
       uni.request({
         url: `${base}${url}`, //仅为示例，并非真实接口地址。
         data: data,
+        method,
         header: { 'content-type': contentType },
         success: (res) => {
           resolve(res.data)
